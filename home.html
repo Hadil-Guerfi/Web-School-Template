@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web School</title>
+  <!-- Main Template Css File -->
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="cours.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c2830f4bfb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Start header    -->
+
+  <div class="header">
+
+    <div class="container">
+
+      <a href="#" class="logo">
+
+        <img src="image/logo.png" alt="Logo">
+
+        <h2>WebSchool</h2>
+
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#cours">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav>
+
+    </div>
+
+  </div>
+
+  <!-- End header-->
+  <!-- Start Landing -->
+
+  <div class="landing">
+
+    <div class="text">
+      <div class="content">
+        <h2>Front End Developement </h2>
+          <br>
+          is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly
+       
+      </div>
+
+    </div>
+
+    <div class="sep"></div>
+  </div>
+  <!-- End Landing -->
+
+
+  <!-- Start Cours -->
+
+
+  <div class="cours">
+    <div class="content">
+      <h2 id="cours" class="main-title">Courses</h2>
+    </div>
+
+    <div class="container">
+
+
+      <div class="box html">
+
+        <div class="img holder">
+          <div class="content">
+            <img id="img-html" src="image/logohtmlfinal.png">
+            <h2>Html</h2>
+          </div>
+        </div>
+
+        <div class="text holder">
+          <div class="content">
+            <p>
+              Is the standard markup language which aim to build the stucture of the Web pages
+            </p>
+            <a href="pagehtml.html" target="_blank">Lets Learn Html</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="box css">
+
+        <div class="img holder">
+          <div class="content">
+            <img src="image/logocssfinal.png">
+            <h2>Css</h2>
+          </div>
+        </div>
+
+        <div class="text holder">
+          <div class="content">
+            <p>Is a stylesheet language describe a presentation of document written in Html </p>
+          </div>
+          <a href="pagecss.html" target="_blank">Lets Learn Css</a>
+        </div>
+
+      </div>
+
+
+      <div class="box js">
+
+        <div class="img holder">
+          <div class="content">
+            <img src="image/logojsfinal.png">
+            <h2>Java Script</h2>
+          </div>
+        </div>
+
+        <div class="text holder">
+          <div class="content">
+            <p>
+              is a dynamic programming language that adds interactivity to your website</p>
+            <a href="pagejs.html" target="_blank">Lets Learn Js</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!--End Cours -->
+
+  <!-- Start Contact -->
+<section id="contact" class="contact">
+
+  <div class="content">
+   <h2 class="main-title">Contact Us</h2>
+ </div> 
+ 
+
+ <div class="container">
+
+  <div class="contact-info">
+
+   <div class="box">
+     <div class="icon">
+       <i class="fa fa-map-marker" aria-hidden="true"></i>
+     </div>
+       <div class="text">
+         <h3>Address</h3>
+         <p>Sousse centre rue 03</p>
+     </div>
+   </div>
+
+   <div class="box">
+     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+     </div>
+       <div class="text">
+         <h3>Phone</h3>
+         <p>29138660</p>
+     </div>
+   </div>
+
+   <div class="box">
+     <div class="icon"><i class="fa-solid fa-envelope"></i>
+     </div>
+       <div class="text">
+         <h3>Email</h3>
+         <p>WebSchool@gmail.com</p>
+     </div>
+   </div>
+  </div>
+
+   <div class="contact-form">
+     
+     <div class="contact-form-title">
+       Log In
+      </div>
+   
+   <form>
+     <div class="row">
+
+     <div class="input-group">
+       <input type="text" id="name" required>
+       <label for="name"><i class="fa-solid fa-user"></i> Name</label>   
+     </div>
+   
+   
+   
+       <div class="input-group">
+         <input type="text" id="number" required>
+         <label for="number"><i class="fa-solid fa-square-phone"></i> Phone Number</label>   
+       </div>
+     
+     </div>
+
+   
+     <div class="input-group">
+       <input type="email" id="email" required>
+       <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>   
+     </div>
+   
+
+       <div class="input-group">
+       <textarea  id="message" required></textarea>
+       <label for="message"><i class="fa-solid fa-comment"></i> Your Message</label>   
+       </div>
+       
+       <button type="submit"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+    
+   </div>
+ </div> 
+</section> 
+<!-- End Contact -->
+
+<!-- Start Footer -->
+<section class="a-footer">
+  <div class="footer-container">
+  <footer>
+    <div class="rowo">
+  
+      <div class="col" id="des">
+        <div class="footer-logo">
+         <img src="image/logo.png" class="logo">
+         <h3>Web School</h3>
+        </div>
+        <p>Visit our site to learn what you <br> nead to make the front-end of <br> a site web using HTML ,CSS and JS  </p>
+      </div>
+  
+      <div class="col" id="office">
+        <h3>Office</h3>
+        <p>Tunis chargia Rue 04</p>
+        <p>Soussa Sahloul Rue 09</p>
+        <p>Gabes Metouia Rue 01</p>
+      </div>
+  
+      <div class="col">
+        <h3>Links</h3>
+        <ul class="lien">
+            <li><a href="pagehtml.html">HTML</a></li>
+            <li><a href="pagecss.html">CSS</a></li>
+            <li><a href="pagejs.html">Java Script</a></li>
+        </ul>
+  
+      </div>
+      <div class="col" id="sm">
+        <h3>Social Media</h3>
+        <div class="social-media">
+         <a href="https://www.facebook.com/" target="_blank" id="f"> <i class="fa-brands fa-facebook-f"></i> </a>      
+         <a href="https://www.instagram.com/" target="_blank" id="i"><i class="fa-brands fa-instagram"></i></a> 
+          <a href="https://www.youtube.com/" target="_blank" id="y"> <i class="fa-brands fa-youtube"></i></a> 
+            <a href="https://twitter.com/" target="_blank" id="t"> <i class="fa-brands fa-twitter"></i> </a>       
+        </div>
+      </div>
+  
+    </div>
+  </footer>
+  </div>
+  </section>
+
+  <!-- End Footer -->
+</body>
+
+</html>

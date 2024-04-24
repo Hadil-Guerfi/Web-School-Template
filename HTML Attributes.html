@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes</title>
+    <link rel="stylesheet" href="pagehtml.css">
+    <link rel="icon" href="image/logohtmlfinal.png" >
+</head>
+<body>
+     <!-- Start header    -->
+
+ <div class="header">
+
+    <div class="container">
+
+       <a href="#" class="logo">
+          
+           <img src="image/logo.png" alt="Logo">
+          
+            <h2>Web School</h2>
+
+       </a>
+         
+       <nav>
+         <ul id="nav" >
+            
+            <li ><a class="big-list" href="home.html">Home</a></li>
+           
+            <li id="hover-courses" ><a class="big-list" >Courses</a>
+                
+                <ul class="in-list">
+                    <li > <a href="pagehtml.html">Html</a></li>
+                    <li ><a href="pagecss.html">Css</a></li>
+                    <li id="js"><a href="pagejs.html">Java Script</a></li> 
+
+                </ul>  
+            </li>
+
+           <li class="big"><a class="big-list" href="home.html#contact" >Contact</a></li>
+
+         </ul>
+       </nav>
+
+    </div>
+
+</div> 
+<!-- End header -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+    <ul class="nav">
+        <li>
+        <h2>HTML </h2>
+        </li>
+      <li>
+        <a href="HTML Introduction.html">
+          <span>HTML Introduction</span>
+        </a>
+      </li>
+      <li>
+
+        <a href="HTML Documents.html">
+          <span>HTML Documents</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Head.html">
+          <span>HTML Head</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Elements.html">
+          <span>HTML Elements</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Attributes.html">
+          <span>HTML Attributes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Headings.html">
+          <span>HTML Headings</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Paragraphs.html">
+          <span>HTML Paragraphs</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Formatting.html">
+          <span>HTML Formatting</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Comments.html">
+          <span>HTML Comments</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Links.html">
+          <span>HTML Links</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Images.html">
+          <span>HTML Images</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Favicon.html">
+          <span>HTML Favicon</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Tables.html">
+          <span>HTML Tables</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML lists.html">
+          <span>HTML lists</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Block & Inline.html">
+          <span>HTML Block & Inline</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Classes.html">
+          <span>HTML Classes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Id.html">
+          <span>HTML Id</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="HTML Forms.html">
+          <span>HTML Forms</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+<!-- End Sidebar -->
+<!-- Start Html Attributes -->
+<section>
+    <div class="contenu-html">
+    <h2>Html Attributes</h2>
+    <h3>whta's Html Attributes</h3>
+    <div class="content">
+      -All HTML elements can have attributes<br>
+      -Attributes provide additional information about elements
+      <br>
+      -Attributes are always specified in the start tag
+      <br>
+      -Attributes usually come in name/value pairs like: name="value"
+      </div>
+      <h3>The href Attribute</h3>
+      <div class="content">
+        The &lt;a> tag defines a hyperlink. <br> href attribute specifies the URL of the page the link goes to
+      </div>
+      <div class="example">
+        <h4>Example:</h4>
+        &lt;a <mark>href</mark>="https://www.WebSchool.com">Visist WebScholl&lt;/a>
+      </div>
+     
+      <h3>The src Attribute</h3>
+      <div class="content">
+        The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+      </div>
+      <div class="example">
+        <h4>Example:</h4>
+        &lt;img <mark>src</mark>="img_sun.jpg" >
+      </div>
+  
+      <div class="note">
+        <h4>Note:</h4>
+        <div class="content">
+          <div class="gras">
+          1. Absolute URL:
+          </div>
+          Links to an external image that is hosted on another website. Example: src="https://www.WebSchool.com/images/img_sun.jpg".
+          <div class="gras">
+          2. Relative URL:
+           </div>
+          Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_sun.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_sun.jpg".
+        </div>
+      </div>
+  
+      <h3>The width and height Attributes</h3>
+      <div class="content">
+        The &lt;img> tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels):
+      </div>
+      <div class="example">
+        <h4>Example:</h4>
+        &lt;img src="img_sun.jpg" <mark>width</mark>="500" <mark>height</mark>="600">
+      </div>
+  
+      <h3>The alt Attribute</h3>
+      <div class="content">
+        The required alt attribute for the &lt;img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader.
+      
+      <div class="example">
+        <h4>Example:</h4>
+        &lt;img src="img_sun.jpg" <mark>alt</mark>="Sun Rise">
+      </div>
+    </div>
+  
+      <h3>The style Attribute</h3>
+      <div class="content">
+        The style attribute is used to add styles to an element, such as color, font, size, and more.
+        <div class="example">
+          <h4>Example:</h4>
+          &lt;p <mark>style</mark>="color:red;">This is a red paragraph.</p>
+        </div>
+        
+        <h3>The title Attribute</h3>
+        <div class="content">
+          The title attribute defines some extra information about an element.
+         The value of the title attribute will be displayed as a tooltip when you mouse over the element.
+          <div class="example">
+            <h4>Example:</h4>
+            &lt;p <mark>title</mark>="I'm a tooltip">This is a paragraph.</p>
+          </div>
+        </div>
+  
+          <h3>The lang Attribute</h3>
+          <div class="content">
+            You should always include the lang attribute inside the &lt;html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+          <div class="example">
+            <h4>Example:</h4>
+            The following example specifies English as the language:
+          </div>
+          <img src="image/lang-en.PNG" >
+          <br>
+          <h4>Also</h4>
+          Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+         <div class="example">
+           <h4>Example:</h4>
+           The following example specifies English as the language and United States as the country: 
+          </div>
+         <img src="image/lang-en-us.PNG" >
+        </div> 
+       </div>
+  </section>
+</div>
+           <!-- End Html Attributes -->
+</body>
+</html>

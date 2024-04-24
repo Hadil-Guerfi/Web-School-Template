@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="pagehtml.css">
+    <link rel="icon" href="image/logohtmlfinal.png" >
+</head>
+<body>
+     <!-- Start header    -->
+
+ <div class="header">
+
+    <div class="container">
+
+       <a href="#" class="logo">
+          
+           <img src="image/logo.png" alt="Logo">
+          
+            <h2>Web School</h2>
+
+       </a>
+         
+       <nav>
+         <ul id="nav" >
+            
+            <li ><a class="big-list" href="home.html">Home</a></li>
+           
+            <li id="hover-courses" ><a class="big-list" >Courses</a>
+                
+                <ul class="in-list">
+                    <li > <a href="pagehtml.html">Html</a></li>
+                    <li ><a href="pagecss.html">Css</a></li>
+                    <li id="js"><a href="pagejs.html">Java Script</a></li> 
+
+                </ul>  
+            </li>
+
+           <li class="big"><a class="big-list" href="home.html#contact" >Contact</a></li>
+
+         </ul>
+       </nav>
+
+    </div>
+
+</div> 
+<!-- End header -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+    <ul class="nav">
+        <li>
+        <h2>HTML </h2>
+        </li>
+      <li>
+        <a href="HTML Introduction.html">
+          <span>HTML Introduction</span>
+        </a>
+      </li>
+      <li>
+
+        <a href="HTML Documents.html">
+          <span>HTML Documents</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Head.html">
+          <span>HTML Head</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Elements.html">
+          <span>HTML Elements</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Attributes.html">
+          <span>HTML Attributes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Headings.html">
+          <span>HTML Headings</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Paragraphs.html">
+          <span>HTML Paragraphs</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Formatting.html">
+          <span>HTML Formatting</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Comments.html">
+          <span>HTML Comments</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Links.html">
+          <span>HTML Links</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Images.html">
+          <span>HTML Images</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Favicon.html">
+          <span>HTML Favicon</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Tables.html">
+          <span>HTML Tables</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Lists.html">
+          <span>HTML Lists</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Block & Inline.html">
+          <span>HTML Block & Inline</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Classes.html">
+          <span>HTML Classes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Id.html">
+          <span>HTML Id</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="HTML Forms.html">
+          <span>HTML Forms</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+<!-- End Sidebar -->
+
+<div class="contenu-html">
+ <!-- Start HTML Forms -->
+ <section>
+    <h2>HTML Forms</h2>
+    <div class="content">
+      <h3>What's HTML Forms</h3>
+      An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+      <h4>Example</h4>
+      <img src="image/form.PNG" alt="">
+      <h3>The &lt;form> Element</h3>
+      The HTML &lt;form> element is used to create an HTML form for user input
+      <br>
+      <img src="image/form-elt.PNG" alt="">
+      <br>
+      The &lt;form> element is a container for different types of input elements, 
+      <div class="gras">
+        such as:
+      </div>  
+      <img src="image/form-elt2.PNG" alt="">
+      <h3>The &lt;input> Element</h3>
+      The HTML &lt;input> element is the most used form element.
+      <br>
+        An &lt;input> element can be displayed in many ways, depending on the type attribute.
+      <br>
+        Here are some examples:
+        <br>
+        <img src="image/input2.PNG" alt="">
+      <h3>Text Fields</h3>
+      The &lt;input type="text"> defines a single-line input field for text input.
+      <h4>Example</h4>
+      A form with input fields for text:
+      <br>
+      <img src="image/input-text.PNG" alt="">
+      <br>
+      This is how the HTML code above will be displayed in a browser:
+      <br>
+      <img src="image//browser-look.PNG" alt="">
+      <h4>Note:</h4>
+      <div class="note">
+        <div class="content">
+          The form itself is not visible. Also note that the default width of an input field is 20 characters.
+        </div>
+      </div>
+      <h3>The &lt;label> Element</h3>
+        -Notice the use of the &lt;label> element in the example above.
+        <br>
+        -The &lt;label> tag defines a label for many form elements.
+        <br>
+        -The &lt;label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+        <br>
+        -The &lt;label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
+        <br>
+        -The for attribute of the &lt;label> tag should be equal to the id attribute of the &lt;input> element to bind them together.
+       </div>
+  </section>
+  <!-- End HTML Forms -->
+</div>
+</body>
+</html>

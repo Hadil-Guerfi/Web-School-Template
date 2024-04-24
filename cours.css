@@ -1,0 +1,183 @@
+.cours {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    position: relative;
+    background-color: white;
+    overflow: hidden;  
+  }
+
+  .cours .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 40px;    
+  }
+
+  .cours .box {
+    text-align: center;  
+  }
+
+  .cours .box .img.holder {
+    position: relative;
+    overflow: hidden;
+    height:50%;
+    transition: 0.5s;
+    transform: translateY(50%);
+    background-color:  #023975;
+    z-index: 1;
+    box-shadow: 20px 0 50px 10px  rgba(0,0,0,0.6);
+  }
+
+  
+/* ici effect */
+ .container .box .img.holder .content {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.container .box:hover .img.holder .content {
+    opacity: 1;
+}
+
+.container .box:hover .img.holder {
+    background-color: #eee;
+    transform: translateY(0);
+    box-shadow: 0px 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.container .box:hover .text.holder {
+    transform: translateY(0);
+} 
+
+/* end effect */
+  .img.holder img {
+    width: 80px;
+    height: 80px;
+    position: relative;}
+
+    .cours .box .text.holder{
+        height:50%;
+        transform: translateY(-50%);
+    }
+    
+  .cours .box .img-holder::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    height: 100%;
+  }
+  .cours .box .img-holder::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0px 0px 170px 500px;
+    border-color: transparent transparent white transparent;
+    transition: var(--main-transition);
+  }
+  .cours .box .img-holder img {
+    max-width: 100%;
+  }
+
+  .features .box:hover .img-holder::after {
+    border-width: 170px 500px 170px 0;
+  }
+
+  .cours .box h2 {
+    position: relative;
+    font-size: 40px;
+    margin: auto;
+    width: fit-content;
+  }
+
+  .cours .box h2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+    height: 5px;
+    width: calc(100% - 30px);
+  }
+
+  .cours .box p {
+    line-height: 2;
+    font-size: 20px;
+    margin: 30px -2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #777;
+  }
+
+  .cours .box a {
+    display: block;
+    border: 3px solid transparent;
+    width: fit-content;
+    margin: 0 auto 30px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    transition: var(--main-transition);
+    margin-bottom: 10px;
+  }
+
+  .cours .box .text.holder{
+      margin-bottom: 100px;
+  }
+
+  .cours .box.html .img-holder::before {
+    background-color: rgb(244 64 54 / 60%);
+  }
+
+  .cours .box.html h2::after {
+    background-color: #e54d26;
+  }
+
+  .cours .box.html a {
+    color: #e54d26;
+    border-color: #e54d26;
+    background: linear-gradient(to right,#e54d26 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+ 
+  .cours .box.css .img-holder::before {
+    background-color: rgb(3 169 244 / 60%);
+  }
+
+  .cours .box.css h2::after {
+    background-color: #2062b0;
+  }
+
+  .cours .box.css a {
+    color: #2062b0;
+    border-color: #2062b0;
+    background: linear-gradient(to right, #2062b0 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+
+  .cours .box.js .img-holder::before {
+    background-color: rgb(0 150 136 / 60%);
+  }
+
+  .cours .box.js h2::after {
+    background-color: #e9ca32;
+  }
+
+  .cours .box.js a {
+    color: #e9ca32;
+    border-color: #e9ca32;
+    background: linear-gradient(to right, #e9ca32 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+
+  .cours .box a:hover  {
+    background-position: left bottom;
+    color: white;
+  }
+
+  

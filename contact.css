@@ -1,0 +1,142 @@
+/* Start Contact */
+
+
+.contact {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2vw;
+    background: linear-gradient(rgb(2, 57, 117), #2c9ea5), url(image/bacho.jpg);
+}
+
+
+.contact .container {
+    margin-top: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20vw;
+}
+
+.contact .contact-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -16px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+    /* font-weight:bold; */
+}
+
+input,
+textarea {
+    width: 8vw;
+    height: 50px;
+    padding: 10px;
+    outline: 0;
+    border: 1.5px solid white;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    width: 300px;
+
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    /* color:#038d94; */
+    cursor: text;
+    transition: var(--main-transition);
+}
+
+button {
+    width: 8vw;
+    height: 40px;
+    padding: 10px 0;
+    font-size: 15px;
+    color: white;
+    background: transparent;
+    border: 1.5px solid white;
+    width: 50%;
+    cursor: pointer;
+    transform: translateX(50%);
+}
+
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+/* contact-form */
+
+
+
+.contact .contact-info {
+    position: relative;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding-top: 30px;
+}
+
+.contact-info .box {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contact .contact-info .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact .container .contact-info .box .icon {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.content .contact-form-title {
+    display: flex;
+}
+
+.contact-form-title {
+
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+
+/* End Contact  */
+
+

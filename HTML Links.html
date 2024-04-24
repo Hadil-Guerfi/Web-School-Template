@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links</title>
+    <link rel="stylesheet" href="pagehtml.css">
+    <link rel="icon" href="image/logohtmlfinal.png" >
+</head>
+<body>
+     <!-- Start header    -->
+
+ <div class="header">
+
+    <div class="container">
+
+       <a href="#" class="logo">
+          
+           <img src="image/logo.png" alt="Logo">
+          
+            <h2>Web School</h2>
+
+       </a>
+         
+       <nav>
+         <ul id="nav" >
+            
+            <li ><a class="big-list" href="home.html">Home</a></li>
+           
+            <li id="hover-courses" ><a class="big-list" >Courses</a>
+                
+                <ul class="in-list">
+                    <li > <a href="pagehtml.html">Html</a></li>
+                    <li ><a href="pagecss.html">Css</a></li>
+                    <li id="js"><a href="pagejs.html">Java Script</a></li> 
+
+                </ul>  
+            </li>
+
+           <li class="big"><a class="big-list" href="home.html#contact" >Contact</a></li>
+
+         </ul>
+       </nav>
+
+    </div>
+
+</div> 
+<!-- End header -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+    <ul class="nav">
+        <li>
+        <h2>HTML </h2>
+        </li>
+      <li>
+        <a href="HTML Introduction.html">
+          <span>HTML Introduction</span>
+        </a>
+      </li>
+      <li>
+
+        <a href="HTML Documents.html">
+          <span>HTML Documents</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Head.html">
+          <span>HTML Head</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Elements.html">
+          <span>HTML Elements</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Attributes.html">
+          <span>HTML Attributes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Headings.html">
+          <span>HTML Headings</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Paragraphs.html">
+          <span>HTML Paragraphs</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Formatting.html">
+          <span>HTML Formatting</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Comments.html">
+          <span>HTML Comments</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Links.html">
+          <span>HTML Links</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Images.html">
+          <span>HTML Images</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Favicon.html">
+          <span>HTML Favicon</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Tables.html">
+          <span>HTML Tables</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML lists.html">
+          <span>HTML lists</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Block & Inline.html">
+          <span>HTML Block & Inline</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Classes.html">
+          <span>HTML Classes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Id.html">
+          <span>HTML Id</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="HTML Forms.html">
+          <span>HTML Forms</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+<!-- End Sidebar -->
+
+<div class="contenu-html">
+ <!-- Sart Html Links -->
+ <section>
+    <h2>HTML Links</h2>
+    <div class="content">
+    <h3>what's Html Links</h3>
+    Links are found in nearly all web pages. Links allow users to click their way from page to page.
+    <h3>HTML Links - Hyperlinks </h3>
+    HTML links are hyperlinks.
+    <br>
+    You can click on a link and jump to another document.
+    <br>
+    When you move the mouse over a link, the mouse arrow will turn into a little hand.
+    <h3>HTML Links - Syntax</h3>
+    The HTML &lt;a> tag defines a hyperlink. It has the following syntax:
+    <br>
+    <img src="image/html-link.PNG" alt="">
+    <br>
+    The most important attribute of the &lt;a> element is the href attribute, which indicates the link's destination.
+      <br>
+      The link text is the part that will be visible to the reader.
+      <br>
+      Clicking on the link text, will send the reader to the specified URL address.
+      <h4>Example:</h4>
+      This example shows how to create a link to WebSchools.com:
+      <br>
+      &lt;a href="https://www.Webschools.com/">Visit WebSchool.com!&lt;/a>
+      <h3>HTML Links - The target Attribute </h3>
+      By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+      <br>
+The target attribute specifies where to open the linked document.
+<br>
+The target attribute can have one of the following values:
+<br>
+_self  (Default): Opens the document in the same window/tab as it was clicked
+<br>
+_blank : Opens the document in a new window or tab
+<br>
+_parent : Opens the document in the parent frame
+<br>
+_top : Opens the document in the full body of the window
+      <h4>Example</h4>
+      Use target="_blank" to open the linked document in a new browser window or tab:
+      &lt;a href="https://www.WebSchool.com/" target="_blank">Visit WebSchools! &lt;/a>
+
+      <h3>Absolute URLs vs. Relative URLs  </h3>
+
+      Both examples above are using an absolute URL (a full web address) in the href attribute.
+      <br>
+     A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):
+    <br>
+
+    <h4>Example</h4>
+      <img src="image/absolute-url.PNG" >
+      <br>
+      <img src="image/relative-url.PNG" alt="">
+
+    </div>    
+    </section>
+    <!-- End Html Links -->
+</div>
+</body>
+</html>

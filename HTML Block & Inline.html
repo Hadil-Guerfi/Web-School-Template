@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Block & Inline</title>
+    <link rel="stylesheet" href="pagehtml.css">
+    <link rel="icon" href="image/logohtmlfinal.png" >
+</head>
+<body>
+     <!-- Start header    -->
+
+ <div class="header">
+
+    <div class="container">
+
+       <a href="#" class="logo">
+          
+           <img src="image/logo.png" alt="Logo">
+          
+            <h2>Web School</h2>
+
+       </a>
+         
+       <nav>
+         <ul id="nav" >
+            
+            <li ><a class="big-list" href="home.html">Home</a></li>
+           
+            <li id="hover-courses" ><a class="big-list" >Courses</a>
+                
+                <ul class="in-list">
+                    <li > <a href="pagehtml.html">Html</a></li>
+                    <li ><a href="pagecss.html">Css</a></li>
+                    <li id="js"><a href="pagejs.html">Java Script</a></li> 
+
+                </ul>  
+            </li>
+
+           <li class="big"><a class="big-list" href="home.html#contact" >Contact</a></li>
+
+         </ul>
+       </nav>
+
+    </div>
+
+</div> 
+<!-- End header -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+    <ul class="nav">
+        <li>
+        <h2>HTML </h2>
+        </li>
+      <li>
+        <a href="HTML Introduction.html">
+          <span>HTML Introduction</span>
+        </a>
+      </li>
+      <li>
+
+        <a href="HTML Documents.html">
+          <span>HTML Documents</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Head.html">
+          <span>HTML Head</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Elements.html">
+          <span>HTML Elements</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Attributes.html">
+          <span>HTML Attributes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Headings.html">
+          <span>HTML Headings</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Paragraphs.html">
+          <span>HTML Paragraphs</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Formatting.html">
+          <span>HTML Formatting</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Comments.html">
+          <span>HTML Comments</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Links.html">
+          <span>HTML Links</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Images.html">
+          <span>HTML Images</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Favicon.html">
+          <span>HTML Favicon</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Tables.html">
+          <span>HTML Tables</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Lists.html">
+          <span>HTML Lists</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Block & Inline.html">
+          <span>HTML Block & Inline</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Classes.html">
+          <span>HTML Classes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Id.html">
+          <span>HTML Id</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="HTML Forms.html">
+          <span>HTML Forms</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+<!-- End Sidebar -->
+
+<div class="contenu-html">
+<!-- Start HTML Block and Inline -->
+<Section>
+    <h2>HTML Block and Inline</h2>
+    <div class="content">
+      <h3>What's HTML Block and Inline</h3>
+      Every HTML element has a default display value, depending on what type of element it is.
+      <br>
+      There are two display values: block and inline.
+      <br>
+      <h3>Block Elements</h3>
+      A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+<br>
+Two commonly used block elements are: &lt;p> and &lt;div>.
+<br>
+The &lt;p> element defines a paragraph in an HTML document.
+<br>
+The &lt;div> element defines a division or a section in an HTML document.
+<br>
+      <h4>Example</h4>
+      <img src="image/block&inline.PNG" >
+      <br>
+      Looks like:
+      <br>
+      <p>Hello World</p>
+      <div>Hello World</div>
+      Here are the block-level elements in HTML:
+      <br>
+      <img src="image/b1.PNG" alt="">
+      <h3>Inline Elements</h3>
+      An inline element does not start on a new line.
+      <br>
+      An inline element only takes up as much width as necessary.
+      <br>
+      This is a &lt;span> element inside a paragraph.
+      <h4>Example</h4>
+      <img src="image/inline1.PNG" alt="">
+      <br>
+      Here are the block elements in HTML:
+      <img src="image/inline2.PNG" alt="">
+      <h4>Note:</h4>
+      <div class="note">
+        <div class="content">
+          An inline element cannot contain a block-level element!
+        </div>
+      </div>
+
+      <h3>The &lt;div> Element</h3>
+      The &lt;div> element is often used as a container for other HTML elements.
+      <br>
+        The &lt;div> element has no required attributes, but style, class and id are common.
+        <br>
+        When used together with CSS, the &lt;div> element can be used to style blocks of content
+        <h4>Example:</h4>
+        <img src="image/div.PNG" alt="">
+        <br>
+        Looks like:
+        <div style="background-color:black;color:white;padding:20px;">
+          <h2>London</h2>
+          <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        </div>
+
+        <h3>The &lt;span> Element</h3>
+        The &lt;span> element is an inline container used to mark up a part of a text, or a part of a document.
+          <br>
+          The &lt;span> element has no required attributes, but style, class and id are common.
+          <br>
+          When used together with CSS, the &lt;span> element can be used to style parts of the text
+          <h4>Example:</h4>
+          <img src="image/span.PNG" alt="">
+          <br>
+          Looks like:
+          <br>
+          <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+         
+          <h3>Chapter Summary</h3>
+            .There are two display values: block and inline
+          <br>
+            .A block-level element always starts on a new line and takes up the full width available
+          <br>
+            .An inline element does not start on a new line and it only takes up as much width as necessary
+          <br>
+            .The &lt;div> element is a block-level and is often used as a container for other HTML elements
+          <br>
+            .Twhe &lt;span> element is an inline container used to mark up a part of a text, or a part of a document
+          <br>
+          <img src="image/b&l.PNG" alt="">
+  </div>
+  </Section>
+    <!-- End HTML Block and Inline -->
+
+
+</div>
+</body>
+</html>

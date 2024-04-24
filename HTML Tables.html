@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="pagehtml.css">
+    <link rel="icon" href="image/logohtmlfinal.png" >
+</head>
+<body>
+     <!-- Start header    -->
+
+ <div class="header">
+
+    <div class="container">
+
+       <a href="#" class="logo">
+          
+           <img src="image/logo.png" alt="Logo">
+          
+            <h2>Web School</h2>
+
+       </a>
+         
+       <nav>
+         <ul id="nav" >
+            
+            <li ><a class="big-list" href="home.html">Home</a></li>
+           
+            <li id="hover-courses" ><a class="big-list" >Courses</a>
+                
+                <ul class="in-list">
+                    <li > <a href="pagehtml.html">Html</a></li>
+                    <li ><a href="pagecss.html">Css</a></li>
+                    <li id="js"><a href="pagejs.html">Java Script</a></li> 
+
+                </ul>  
+            </li>
+
+           <li class="big"><a class="big-list" href="home.html#contact" >Contact</a></li>
+
+         </ul>
+       </nav>
+
+    </div>
+
+</div> 
+<!-- End header -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+    <ul class="nav">
+        <li>
+        <h2>HTML </h2>
+        </li>
+      <li>
+        <a href="HTML Introduction.html">
+          <span>HTML Introduction</span>
+        </a>
+      </li>
+      <li>
+
+        <a href="HTML Documents.html">
+          <span>HTML Documents</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Head.html">
+          <span>HTML Head</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Elements.html">
+          <span>HTML Elements</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Attributes.html">
+          <span>HTML Attributes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Headings.html">
+          <span>HTML Headings</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Paragraphs.html">
+          <span>HTML Paragraphs</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Formatting.html">
+          <span>HTML Formatting</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Comments.html">
+          <span>HTML Comments</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Links.html">
+          <span>HTML Links</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Images.html">
+          <span>HTML Images</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Favicon.html">
+          <span>HTML Favicon</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Tables.html">
+          <span>HTML Tables</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML lists.html">
+          <span>HTML lists</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Block & Inline.html">
+          <span>HTML Block & Inline</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Classes.html">
+          <span>HTML Classes</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="HTML Id.html">
+          <span>HTML Id</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="HTML Forms.html">
+          <span>HTML Forms</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+<!-- End Sidebar -->
+<div class="contenu-html">
+<!-- Start HTML Tables -->
+<section>
+    <h2>HTML Tables</h2>
+    <div class="content">
+     <h3>What's Html Tables</h3> 
+     HTML tables allow web developers to arrange data into rows and columns.
+    <h4>Example:</h4>
+    <img src="image/table-expl.PNG" alt="">
+      <br>
+      <h3>Define an HTML Table</h3>
+      A table in HTML consists of table cells inside rows and columns
+      <h4>Example:</h4>
+      A simple HTML table:
+      <br>
+      <img src="image/tab-exp1.PNG" alt="">
+      <br>
+      looks like:        
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+      <h3>Table Cells</h3>
+      Each table cell is defined by a &lt;td> and a &lt;/td> tag.
+      <br>
+      Everything between &lt;td> and &lt;/td> are the content of the table cell.
+      <h4>Example:</h4>
+      <img src="image/tab-exp2.PNG" alt="">
+      <br>
+      looks like:
+      <table>
+        <tr>
+          <td>Emil</td>
+          <td>Tobias</td>
+          <td>Linus</td>
+        </tr>
+      </table>
+
+      <h4>Note:</h4>
+      <div class="note">
+        <div class="content">
+          table data elements are the data containers of the table.
+          They can contain all sorts of HTML elements; text, images, lists, other tables, etc.
+        </div>
+      </div>
+
+      <h3>Table Rows</h3>
+      Each table row starts with a &lt;tr> and end with a &lt;/tr> tag.
+      <h4>Example:</h4>
+      <img src="image/tab-exp3.PNG" >
+      <br>
+      looks like:
+      <table>
+        <tr>
+          <td>Emil</td>
+          <td>Tobias</td>
+          <td>Linus</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>14</td>
+          <td>10</td>
+        </tr>
+      </table>
+
+      <h3>Table Headers</h3>
+      Sometimes you want your cells to be headers, in those cases use the &lt;th> tag instead of the &lt;td> tag:
+      <h4>Example</h4>
+      <img src="image/tab-exp4.PNG" >
+      <br>
+      looks like:
+      <table>
+        <tr>
+          <th>Person 1</th>
+          <th>Person 2</th>
+          <th>Person 3</th>
+        </tr>
+        <tr>
+          <td>Emil</td>
+          <td>Tobias</td>
+          <td>Linus</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>14</td>
+          <td>10</td>
+        </tr>
+      </table>
+
+      <h3>HTML Table Tags</h3>
+       <img src="image/tab-tags.PNG" alt=""> 
+
+       <h3>HTML Table Colspan & Rowspan</h3>
+       HTML tables can have cells that spans over multiple rows and/or columns.
+      <br>
+      like this:
+      <br>
+      <img src="image/tab-fusion.PNG" alt="">
+
+      <h4 style="color: rgb(112, 107, 107);">HTML Table - Colspan</h4>
+      To make a cell span over multiple columns, use the colspan attribute:
+      <div class="gras">
+        Example:
+      </div>
+      <img src="image/colspan.PNG" alt="">
+      <br>
+      Looks like:
+      <table>
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>57</td>
+        </tr>
+      </table>
+      <div class="gras">
+        Note:
+      </div>
+      <div class="note">
+        <div class="content">
+          To make a cell span over multiple rows, use the rowspan attribute    
+        </div>
+      </div>
+
+      <h4 style="color: rgb(112, 107, 107);">HTML Table - Rowspan</h4>
+      To make a cell span over multiple rows, use the rowspan attribute
+      <div class="gras">
+        Example:
+      </div>
+      <img src="image/rowspan.PNG" >
+      <br>
+      Looks like:
+      <br>
+      <table>
+        <tr>
+          <th>Name</th>
+          <td>Jill</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Phone</th>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>555-8745</td>
+      </tr>
+      </table>
+
+      <div class="gras">
+        Note:
+      </div>
+      <div class="note">
+        <div class="content">
+          The value of the rowspan attribute represents the number of rows to span.
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- End HTML Tables -->
+</div>
+</body>
+</html>
